@@ -9,37 +9,28 @@
 			<array>
 				<dict>
 					<key>AllowedProtocolMask</key>
-					<integer>0</integer>
+					<integer>1</integer>
 					<key>AllowedProtocolMaskInDomesticRoaming</key>
-					<integer>0</integer>
+					<integer>1</integer>
 					<key>AllowedProtocolMaskInRoaming</key>
-					<integer>0</integer>
+					<integer>1</integer>
 					<key>AuthenticationType</key>
-					<string>PAP</string>
-					<key>DefaultProtocolMask</key>
-					<integer>0</integer>
-					<key>Name</key>
-					<string></string>
-					<key>Password</key>
-					<string></string>
+					<string>CHAP</string>					
+                                        <key>Name</key>
+
+                                        <string>sp.koodo.com</string>
+
 					<key>ProxyPort</key>
-					<integer>0</integer>
+					<integer>80</integer>
 					<key>ProxyServer</key>
-					<string></string>
-					<key>Username</key>
-					<string></string>
-				</dict>
+					<string>74.49.0.18</string>				</dict>
 			</array>
 			<key>AttachAPN</key>
 			<dict>
 				<key>AuthenticationType</key>
-				<string>PAP</string>
+				<string>CHAP</string>
 				<key>Name</key>
-				<string></string>
-				<key>Password</key>
-				<string></string>
-				<key>Username</key>
-				<string></string>
+				<string>sp.koodo.com</string>
 			</dict>
 			<key>PayloadDescription</key>
 			<string>Configures cellular data settings</string>
