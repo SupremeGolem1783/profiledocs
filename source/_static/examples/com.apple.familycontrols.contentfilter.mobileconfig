@@ -18,7 +18,7 @@
 			<key>PayloadUUID</key>
 			<string></string>
 			<key>PayloadVersion</key>
-			<integer>1</integer>
+			<integer>2</integer>
 			<key>filterBlacklist</key>
 			<array>
 
